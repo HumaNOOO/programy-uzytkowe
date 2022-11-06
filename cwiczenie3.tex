@@ -1,0 +1,44 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\begin {document}
+\title{Ćwiczenia 3}
+\author{Damian Graczyk}
+\maketitle
+\newpage
+%%zadanie 1
+Tabela 1: Przykładowy system decyzyjny (U,A,d), modelujący problem diagnozy medycznej, której efektem jest decyzja o wykonaniu lub nie wykonaniu operacji wycięcia wyrostka robaczkowego, U=\{u1,u2,...,u10\}, A=\{a1,a2\}, d->D=\{TAK,NIE\}
+\begin {center}
+\begin {tabular} {c | c c c}
+\hline
+\hline
+ Pacjent & Ból brzucha & Temperatura ciała & Operacja \\
+ \hline
+ u1 & Mocny & Wysoka & Tak \\
+ u2 & Średni & Wysoka & Tak \\
+ u3 & Mocny & Średnia & Tak \\
+ u4 & Mocny & Niska & Tak \\
+ u5 & Średni & Średnia & Tak \\
+ u6 & Średni & Średnia & Nie \\
+ u7 & Mały & Wysoka & Nie \\
+ u8 & Mały & Niska & Nie \\
+ u9 & Mocny & Niska & Nie \\
+ u10 & Mały & Średnia & Nie \\
+ \hline
+ \hline
+\end {tabular}
+\end {center}
+\newpage
+%%zadanie 2
+\begin{center}
+\begin{tabular} { c c | c c c c c c}
+ A & B & NOT & AND & NAND & OR & NOR & XOR \\
+ \hline
+ 0 & 0 & 0 & 0 & 1 & 0 & 1 & 0 \\
+ 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\
+ 1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 \\
+ 1 & 1 & 0 & 1 & 0 & 1 & 0 & 0
+\end{tabular}
+\end{center}
+
+
+\end {document}
